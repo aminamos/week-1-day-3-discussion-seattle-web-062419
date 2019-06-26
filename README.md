@@ -78,11 +78,12 @@ What will happen when we invoke the following code?
 maru = Animal.new
 maru.say_species
 ```
-# will puts Hi! I'm a cat
+# should puts Hi! I'm a cat
 
 Is it broken? Why? How can you fix it?
 
-# delete my from my_species
+# it is broken, trying to directly access my_species instead
+# of getting it from species method. delete my from my_species
 
 5 . Reverse engineer this code (i.e., write the class that will make the code work as invoked below):
 
